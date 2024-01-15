@@ -3,6 +3,10 @@
 ## Design Figma
 https://www.figma.com/file/6mNWipGNfsMXPF4EJoVzdX/Portfolio?type=design&node-id=0-1&mode=design&t=yCs1KXTCKlq0P6Th-0
 
+## Flow chart
+![image](https://github.com/freedomDobby/jaeisPortfolio/assets/107250341/ebe8a20a-6429-403d-860a-9043fd1d30a2)
+
+
 
 ## 사용 기술 스택
 #### Front-end
