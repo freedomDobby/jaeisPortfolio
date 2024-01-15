@@ -1,24 +1,29 @@
-import React from "react";
-import logo from "./logo.svg";
+import { Route, Routes } from "react-router-dom";
+import { RecoilRoot } from "recoil";
+import { ThemeProvider } from "styled-components";
+//Pages
+import Layout from "./components/layout/Layout";
+import Start from "./pages/start/Start";
+import Main from "./pages/main/Main";
+import Skill from "./pages/skill/Skill";
+import Project from "./pages/project/Project";
+//etc
+import theme from "./components/common/theme/Theme";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <RecoilRoot>
+        <Routes>
+          <Route path="/*" element={<Layout />}>
+            <Route path="main" element={<Main />} />
+            <Route path="skill" element={<Skill />} />
+            <Route path="project" element={<Project />} />
+          </Route>
+          <Route path="/" element={<Start />} />
+        </Routes>
+      </RecoilRoot>
+    </ThemeProvider>
   );
 }
 
