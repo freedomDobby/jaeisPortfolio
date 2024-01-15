@@ -1,5 +1,8 @@
 # 김재이 Front-end 포트폴리오
 
+## Design Figma
+https://www.figma.com/file/6mNWipGNfsMXPF4EJoVzdX/Portfolio?type=design&node-id=0-1&mode=design&t=yCs1KXTCKlq0P6Th-0
+
 
 ## 사용 기술 스택
 #### Front-end
