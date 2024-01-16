@@ -1,5 +1,9 @@
 # 김재이 Front-end 포트폴리오
 
+## 페이지 
+![StartPage](https://github.com/freedomDobby/jaeisPortfolio/assets/107250341/5e11ab07-80aa-4876-bea2-5b84e5481bfd)
+
+
 ## Design Figma
 https://www.figma.com/file/6mNWipGNfsMXPF4EJoVzdX/Portfolio?type=design&node-id=0-1&mode=design&t=yCs1KXTCKlq0P6Th-0
 
